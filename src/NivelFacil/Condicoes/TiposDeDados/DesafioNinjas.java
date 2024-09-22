@@ -1,4 +1,4 @@
-package TiposDeDados;
+package NivelFacil.Condicoes.TiposDeDados;
 
         /*
         Crie um programa que represente três ninjas da Vila da Folha (Konoha) de "Naruto" e suas respectivas missões.

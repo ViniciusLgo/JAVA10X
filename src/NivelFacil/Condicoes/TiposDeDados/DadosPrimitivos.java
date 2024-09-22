@@ -1,4 +1,4 @@
-package TiposDeDados;
+package NivelFacil.Condicoes.TiposDeDados;
 
 public class DadosPrimitivos {
     // psvm = atalho = public static void main

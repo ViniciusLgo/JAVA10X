@@ -1,4 +1,4 @@
-package Condicoes;
+package NivelFacil.Condicoes;
 import java.util.Scanner;
 
 public class ScannerDoUsuario {
