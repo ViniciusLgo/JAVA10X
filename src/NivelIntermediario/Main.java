@@ -18,7 +18,12 @@ public class Main {
         //metodo void nao retorna valor nenhum
         //Aplicanto metodos aos meus objetos
         Sasuke.SharinganAtivado();
-        Sasuke.EuSouUmNinja();
+        String chamandoMetodo = Sasuke.EuSouUmNinja();
+        System.out.println(chamandoMetodo);
+
+
+        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
+        System.out.println("faltam " + quantoTempoFalta + " anos para se tornar um hokage");
 
         // Criar Sakura Haruno
         Ninja Sakura = new Ninja();
@@ -27,10 +32,6 @@ public class Main {
         Sakura.idade = 18;
 
 
-         Ninja Gaara =  new Ninja();
-         Gaara.nome = "Gaara";
-         Gaara.aldeia = "Aldeia da Areia";
-         Gaara.idade = 18;
 
     }
 }

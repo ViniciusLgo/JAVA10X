@@ -6,7 +6,6 @@ public class Ninja {
     String aldeia;
     int idade;
 
-
     // Criar metodo public Personalizado
     public void SharinganAtivado(){
         System.out.println("Sharingan Ativado");
@@ -18,5 +17,10 @@ public class Ninja {
     }
 
 
+    // Metodo Int retorna Int
 
+
+    public int anosParaSeTornarHokage(int idadeMiniParaSerHokage) {
+        return idadeMiniParaSerHokage - idade ;
+    }
 }
