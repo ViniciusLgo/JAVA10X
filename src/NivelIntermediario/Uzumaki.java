@@ -1,28 +1,17 @@
 package NivelIntermediario;
 
-// Classe Uzumaki: Representa um ninja da família Uzumaki, que herda de Ninja e implementa a interface NinjaInterface.
-public class Uzumaki extends Ninja {
+public abstract class Uzumaki extends Ninja {
 
 
-    public Uzumaki() {
-
-    }
-
-    // Implementação do método mostrarInformations.
+    // Sobreescrever o metodo da classe Ninja
     @Override
-    public void mostrarInformations() {
-        // Método vazio (para ser sobrescrito).
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
     }
 
-    // Implementação do método executarHabilidade.
-    @Override
-    public void executarHabilidade() {
-        // Método vazio (para ser sobrescrito).
-    }
+    // Implementação vazia do método mostrarInformations, precisa ser sobrescrito.
+    public abstract void mostrarInformations();
 
-    // Implementação do método tacarUmaShuriken.
-    @Override
-    public void tacarUmaShuriken() {
-        System.out.println("Tacar uma Shuriken.");
-    }
+    // Implementação vazia do método executarHabilidade, precisa ser sobrescrito.
+    public abstract void executarHabilidade();
 }
