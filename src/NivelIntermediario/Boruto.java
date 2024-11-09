@@ -13,11 +13,7 @@ public class Boruto extends Uzumaki implements HyugaUzumaki {
         System.out.println("Jougan! Eu sou Hyuga Uzumaki");
     }
 
-    // Implementação vazia do método mostrarInformations, precisa ser sobrescrito.
-    @Override
-    public void mostrarInformations() {
-        // Método vazio (para ser implementado posteriormente, caso necessário).
-    }
+
 
     // Implementação vazia do método executarHabilidade, precisa ser sobrescrito.
     @Override

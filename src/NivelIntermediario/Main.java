@@ -7,17 +7,7 @@ public class Main {
 
 
         // Obj uzumaki
-        Uzumaki naruto = new Uzumaki() {
-            @Override
-            public void mostrarInformations() {
-
-            }
-
-            @Override
-            public void executarHabilidade() {
-
-            }
-        };
+        Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
