@@ -1,80 +1,22 @@
 package NivelIntermediario;
 
+// Classe Main: Contém o método main para criar instâncias dos ninjas Uzumaki e Uchiha.
 public class Main {
     public static void main(String[] args) {
+        // Criando uma instância de Naruto Uzumaki.
 
-        /*
-        System.out.println("------------");
+        Uzumaki naruto = new Uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.idade = 16;
 
-
-        // Objeto 3
-        Haruno Sakura = new Haruno();
-        Sakura.nome = "Sakura Haruno";
-        Sakura.aldeia = "Aldeia da Folha";
-        Sakura.idade = 18;
-        Sakura.AtivarCura();
-
-
-
-        System.out.println("------------");
-
-        // Objeto 4
-        Hyuga Hinata = new Hyuga();
-        Hinata.nome = "Hinata Hyuga";
-        Hinata.aldeia = "Aldeia da folha";
-        Hinata.idade = 17;
-        Hinata.Byakugan();
-
-
-
-        System.out.println("------------");
-
-
-        Boruto Boruto = new Boruto();
-        Boruto.nome = "Boruto Hyuga Uzumaki";
-        Boruto.aldeia = "Aldeia da folha";
-        Boruto.idade = 9;
-
-        Boruto.ModoSabioAtivado();
-        Boruto.AtivarJougan();
-        Boruto.AtivarOKarma();
-
-
-
-        System.out.println("------------");
-
-
-
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.habilidadeEspecial();
-
+        // Criando uma instância de Sasuke Uchiha.
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
-        sasuke.habilidadeEspecial();
+        sasuke.idade = 16;
 
+        // Criando uma instância de Itachiu Uchiha.
+        Uchiha itachi = new Uchiha("Itachi Uchiha",16,"cata jambo");
 
-        Hokages Tobirama = new Hokages("tobirama",45,false);
-        System.out.println(Tobirama.nome);
-
-        Hokages Hiruzen = new Hokages("Hiruzen",45,true);
-        System.out.println(Hiruzen.idade);
-
-
-        Missoes missao1 = new Missoes("Resgatar cachorro", RankDeMissoes.D);
-        missao1.exibirDetalhes();
-
-        Missoes missao2 = new Missoes("Derrotar Zabuza", RankDeMissoes.A);
-        missao2.exibirDetalhes();
-
-         */
-
-
-        Senju Hashirama = new Senju();
-        Hashirama.nome = "Hashirama";
-        Hashirama.idade = 45;
-
-        Hokages Tobirama = new Hokages();
 
     }
 }
