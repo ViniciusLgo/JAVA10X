@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Hokages {
+public abstract class Hokages {
 
 
     String nome;

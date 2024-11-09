@@ -1,11 +1,9 @@
 package NivelIntermediario;
 
 public class Main {
-    public Main() {
-    }
-
     public static void main(String[] args) {
 
+        /*
         System.out.println("------------");
 
 
@@ -69,9 +67,14 @@ public class Main {
         Missoes missao2 = new Missoes("Derrotar Zabuza", RankDeMissoes.A);
         missao2.exibirDetalhes();
 
+         */
 
 
+        Senju Hashirama = new Senju();
+        Hashirama.nome = "Hashirama";
+        Hashirama.idade = 45;
 
+        Hokages Tobirama = new Hokages();
 
     }
 }
