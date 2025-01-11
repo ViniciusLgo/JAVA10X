@@ -3,21 +3,23 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
 
-        // Obj ninja nao da pra ser criado
+       // Criar o ninja Naruto - Naruto é um OBJETO
+        Ninja Naruto = new Ninja();
+        Naruto.nome = "Naruto Uzumaki";
+        Naruto.aldeia = "Aldeia da folha";
+        Naruto.idade = 17;
 
+        // Criar ninja Sasuke Uchiha - Sasuke é um OBJETO
+        Ninja Sasuke = new Ninja();
+        Sasuke.nome = "Sasuke Uchiha";
+        Sasuke.aldeia = "Aldeia da Folha";
+        Sasuke.idade = 18;
 
-        // Obj uzumaki
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.habilidadeEspecial();
-        naruto.estrategiaDeBatalhaNinja();
-
-        // Obj uchiha
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.habilidadeEspecial();
-
-
+        // Criar Sakura Haruno
+        Ninja Sakura = new Ninja();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia = "Aldeia da Folha";
+        Sakura.idade = 18;
 
     }
 }
