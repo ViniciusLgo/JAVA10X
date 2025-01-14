@@ -3,6 +3,8 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
 
+        /*
+
         // Objeto 1
         Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
@@ -39,7 +41,7 @@ public class Main {
         Boruto.ModoSabioAtivado();
         Boruto.AtivarOKarma();
         Boruto.AtivarJougan();
-        
+
 
         // Objeto 5
         Nara Shikamaru = new Nara();
@@ -47,6 +49,29 @@ public class Main {
         Shikamaru.aldeia = "Aldeia da folha";
         Shikamaru.idade = 17;
         Shikamaru.ativarSombras();
+
+
+        Uzumaki naruto = new Uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.aldeia = "Aldeia da folha";
+        naruto.idade = 17;
+        naruto.habilidadeEspecial();
+
+
+        Uchiha Sasuke = new Uchiha();
+        Sasuke.nome = "Sasuke Uchiha";
+        Sasuke.aldeia = "Aldeia da folha";
+        Sasuke.idade = 18;
+        Sasuke.habilidadeEspecial();
+
+         */
+
+        Hokages Hashirama = new Hokages();
+        Hashirama.idade = 45;
+
+
+        Hokages Tobirama = new Hokages("Tobirama Senju",47,true);
+        System.out.println(Tobirama.nome);
 
     }
 }
