@@ -64,14 +64,19 @@ public class Main {
         Sasuke.idade = 18;
         Sasuke.habilidadeEspecial();
 
+
+
+        NinjaAvancado Kakashi = new NinjaAvancado();
+        Kakashi.nome = "Kakashi";
+        Kakashi.idade = 20;
+        Kakashi.aldeia = "aldeia da folha";
+        Kakashi.especialidade();
+
          */
 
-        Hokages Hashirama = new Hokages();
-        Hashirama.idade = 45;
 
 
-        Hokages Tobirama = new Hokages("Tobirama Senju",47,true);
-        System.out.println(Tobirama.nome);
+
 
     }
 }

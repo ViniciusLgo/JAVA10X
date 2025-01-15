@@ -1,6 +1,10 @@
 package NivelIntermediario;
 
-public class Uzumaki extends Ninja {
+public class Uzumaki extends NinjaBasico {
+    @Override
+    public void habilidadeEspecial() {
+
+    }
 
     /*
 
@@ -8,13 +12,13 @@ public class Uzumaki extends Ninja {
         System.out.println("Meu é " + nome + ". E eu ativei o modo Sabio"  );
     }
 
-     */
 
     @Override
     public void habilidadeEspecial() {
         System.out.println("Meu é " + nome + ". E eu ativei o Rasengar"  );
 
     }
+     */
 
 
 }

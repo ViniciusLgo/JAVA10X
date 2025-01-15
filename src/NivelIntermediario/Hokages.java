@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
@@ -8,7 +8,6 @@ public class Hokages {
 
     public Hokages() {
         // Construtor vazio, sem argumentos.
-
     }
 
     //Construtor com arguemntos!
@@ -21,7 +20,7 @@ public class Hokages {
 
     }
 
-
+    public abstract void sabedoriaHokages();
 
 
 }

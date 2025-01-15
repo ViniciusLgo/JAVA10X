@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Uchiha extends Ninja {
+public class Uchiha extends NinjaBasico {
 
     /*
 
