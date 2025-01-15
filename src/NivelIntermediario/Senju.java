@@ -1,6 +1,7 @@
 package NivelIntermediario;
 
 public class Senju extends Hokages{
+/*
 
     @Override
     public void sabedoriaHokages() {
@@ -15,5 +16,6 @@ public class Senju extends Hokages{
         System.out.println("idade " + idade );
         System.out.println("vivoOuNao " + vivouOuNao);
     }
+*/
 
 }

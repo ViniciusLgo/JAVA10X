@@ -1,6 +1,7 @@
 package NivelIntermediario;
 
 public abstract class Hokages {
+/*
 
     String nome;
     int idade;
@@ -21,6 +22,7 @@ public abstract class Hokages {
     }
 
     public abstract void sabedoriaHokages();
+*/
 
 
 }

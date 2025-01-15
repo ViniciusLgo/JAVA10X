@@ -1,6 +1,7 @@
 package NivelIntermediario;
 
-public class NinjaAvancado extends  NinjaBasico  implements NinjaInterface {
+public class NinjaAvancado extends Ninja implements NinjaInterface {
+/*
 
 
 
@@ -9,6 +10,11 @@ public class NinjaAvancado extends  NinjaBasico  implements NinjaInterface {
 
     }
 
+
+    @Override
+    public void nomedoNinja() {
+
+    }
 
     @Override
     public void mostrarInformacoes() {
@@ -26,4 +32,7 @@ public class NinjaAvancado extends  NinjaBasico  implements NinjaInterface {
     public void habilidadeEspecial() {
 
     }
-}
+*/
+
+    }
+

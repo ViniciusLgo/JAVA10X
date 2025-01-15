@@ -1,24 +1,14 @@
 package NivelIntermediario;
 
-public class Uzumaki extends NinjaBasico {
+public class Uzumaki extends Ninja {
+
+
+    // Sobreescrever o metodo da classe Ninja
     @Override
     public void habilidadeEspecial() {
-
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
     }
 
-    /*
-
-    public void ModoSabioAtivado() {
-        System.out.println("Meu é " + nome + ". E eu ativei o modo Sabio"  );
+    public void estrategiaDeBatalhaNinja() {
     }
-
-
-    @Override
-    public void habilidadeEspecial() {
-        System.out.println("Meu é " + nome + ". E eu ativei o Rasengar"  );
-
-    }
-     */
-
-
 }
