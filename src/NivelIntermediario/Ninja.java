@@ -3,8 +3,18 @@ package NivelIntermediario;
 public abstract class Ninja implements EstrategiaDeBatalha {
 
     String nome;
-    int aldeia;
+    String aldeia;
     int idade;
+
+
+    public Ninja() {
+    }
+
+    public Ninja(String nome, String aldeia, int idade) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
+    }
 
     // Metodos geral! Todos os ninjas vao ter
     public void habilidadeEspecial() {
@@ -16,5 +26,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     public void estrategiaDeBatalhaNinja() {
         System.out.println( "Meu nome é: " + nome + " Essa é minha estrategia de combate");
     }
+
+
 
 }
