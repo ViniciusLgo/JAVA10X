@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Obj ninja nao da pra ser criado
+/*
 
 
         // Obj uzumaki
@@ -16,6 +17,7 @@ public class Main {
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.habilidadeEspecial();
+*/
 
 
 
