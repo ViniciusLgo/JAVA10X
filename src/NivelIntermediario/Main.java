@@ -29,5 +29,13 @@ public class Main {
         itachi.habilidadeEspecial();
 
 
+        // obj Hatake
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi Uchiha";
+        kakashi.idade = 48;
+        kakashi.aldeia = "Aldeia da folha";
+        kakashi.boasVindas();
+
+
     }
 }
