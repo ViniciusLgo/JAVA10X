@@ -6,6 +6,6 @@ public interface EstrategiaDeBatalha {
 
     void inteligenciaDeCombate();
 
-    void inteligenciaDeCombate( int qi);
+    void inteligenciaDeCombate(int qi);
 
 }

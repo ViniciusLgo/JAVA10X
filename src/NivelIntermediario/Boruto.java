@@ -2,6 +2,11 @@ package NivelIntermediario;
 
 public class Boruto extends Uzumaki implements HyugaUzumaki {
 
+
+    public Boruto(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
 /*
 
     public void AtivarOKarma() {

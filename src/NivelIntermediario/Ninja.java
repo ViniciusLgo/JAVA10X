@@ -38,31 +38,35 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     // Sobreescrevendo o metodo da interface
     @Override
     public void estrategiaDeBatalhaNinja() {
-        System.out.println( "Meu nome é: " + nome + " Essa é minha estrategia de combate");
+        System.out.println( "Meu nome é: " + nome + " Essa é minha ESTRATEGIA de combate");
     }
 
-
-    // Inteligencia de Combate - Metodo padrao
+    // Inteligencia de combate - Metodo padrao
     public void inteligenciaDeCombate() {
-        System.out.println( "Meu nome é: " + nome + " Essa é minha INTELIGENCIA de combate");
-
+        System.out.println("Meu nome é: " + nome + " Essa é minha INTELIGENCIA de combate");
     }
 
-
-    // Inteligencia de Combate - Sobrecarga de metodo
+    // Inteligencia de combate -  Sobrecarga de metodo
     public void inteligenciaDeCombate(int qi) {
-        if (qi>150){
-            System.out.println(" Seu Qi" + qi + " e vc é um genio");
-        } else if (qi>= 130) {
-            System.out.println(" Seu Qi" + qi + " e vc é um promissor");
-        } else {
-            System.out.println(" Seu Qi" + qi + " e vc precisr melhorar ");
 
+        if (qi > 150) {
+            System.out.println("Seu QI é: " + qi + " e voce é um genio");
+        } else if ( qi >= 130 ) {
+            System.out.println("Seu QI é: " + qi + " e voce é um ninja promissor");
+        } else {
+            System.out.println("Seu QI é: " + qi + " e voce precisa treinar mais suas estrategias");
         }
 
     }
 
+    // Metodo sem @override
+    public void metodoProvisorio(){
+
+    }
 
 
-
+    @Override
+    public String toString() {
+        return "esse é o metodo toString para ref de memoria!";
+    }
 }
