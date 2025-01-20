@@ -2,7 +2,6 @@ package NivelIntermediario;
 
 public class ContaCorrente extends ContaBancaria implements Conta{
 
-
     // construtor
     public ContaCorrente(String nome, TipoConta tipoConta, double saldo) {
         super(nome, String.valueOf(tipoConta), saldo);

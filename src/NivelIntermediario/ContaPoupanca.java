@@ -1,7 +1,6 @@
 package NivelIntermediario;
 
-public class ContaPoupanca extends ContaBancaria{
-
+public class ContaPoupanca extends ContaBancaria implements Conta{
     double taxaAdministrativa = 1.0;
 
     // construtor
