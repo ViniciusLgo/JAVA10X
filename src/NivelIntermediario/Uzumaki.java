@@ -22,12 +22,26 @@ public class Uzumaki extends Ninja {
 
     @Override
     public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
+        System.out.println("Meu nome é " + getNome() + " e esse é meu ataque Uzumaki, um ataque de ar");
     }
 
     public void minhaBiju() {
-        System.out.println("Meu nome é " + nome + " e essa é minha biju! " + Biju.KURAMA);
+        System.out.println("Meu nome é " + getNome() + " e essa é minha biju! " + Biju.KURAMA);
     }
 
 
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+
+    }
+
+    @Override
+    public void inteligenciaDeCombate() {
+
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+
+    }
 }

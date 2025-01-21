@@ -1,6 +1,25 @@
 package NivelIntermediario;
 
 public class Nara extends Ninja {
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+
+    }
+
+    @Override
+    public void inteligenciaDeCombate() {
+
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+
+    }
+
+    @Override
+    public void habilidadeEspecial() {
+
+    }
 /*
 
     public void ativarSombras(){
