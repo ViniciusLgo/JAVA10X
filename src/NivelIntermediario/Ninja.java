@@ -2,6 +2,32 @@ package NivelIntermediario;
 
 public abstract class Ninja implements EstrategiaDeBatalha {
 
+    // How to-do: ARRAY E LIST
+    /*
+
+     // TIPO DO ARRAY[] O NOME DO ARRAY E NEW TIPO[QUANT DE OBJETOS];
+
+        String[] ninjasArray = new String[5];
+        ninjasArray[0] = "Aldeia da folha";
+        ninjasArray[1] = "Aldeia da folha";
+        ninjasArray[2] = "Aldeia da folha";
+        ninjasArray[3] = "Aldeia da folha";
+        ninjasArray[4] = "Aldeia da folha";
+
+        for (int i = 0; i < ninjasArray.length; i++) {
+            System.out.println(ninjasArray[i]);
+        }
+
+        //LISTAS NAO SAO ESTATICAS
+        //List<tipo da lista> nome da lista = new Arraylist<>();
+        List<String> ninjasList = new ArrayList<>();
+        ninjasList.add("naruto usumaki");
+        ninjasList.add(itachi.getNome());
+
+        System.out.println(ninjasList);
+
+     */
+
     //TODO: Incluir novos 2 atributos: numeroDeMissoesConcluidas , Rank
     // TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
 

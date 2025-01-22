@@ -1,5 +1,9 @@
 package NivelIntermediario;
 
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -32,9 +36,30 @@ public class Main {
         System.out.println("---------------");
 
 
+        // TIPO DO ARRAY[] O NOME DO ARRAY E NEW TIPO[QUANT DE OBJETOS];
 
+        String[] ninjasArray = new String[5];
+        ninjasArray[0] = "Aldeia da folha";
+        ninjasArray[1] = "Aldeia da folha";
+        ninjasArray[2] = "Aldeia da folha";
+        ninjasArray[3] = "Aldeia da folha";
+        ninjasArray[4] = "Aldeia da folha";
 
+        for (int i = 0; i < ninjasArray.length; i++) {
+            System.out.println(ninjasArray[i]);
+        }
 
+        //LISTAS NAO SAO ESTATICAS
+        //List<tipo da lista> nome da lista = new Arraylist<>();
+        List<String> ninjasList = new ArrayList<>();
+        ninjasList.add("naruto usumaki");
+        ninjasList.add("Sasuke ");
+        ninjasList.add("Madara usumaki");
+        ninjasList.add(itachi.getNome());
+
+        System.out.println(ninjasList);
+        ninjasList.remove("Sasuke ");
+        System.out.println(ninjasList);
 
     }
 }
