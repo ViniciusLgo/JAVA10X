@@ -53,5 +53,5 @@ public class NinjaAvancado extends Ninja implements NinjaInterface {
     }
 */
 
-    }
+}
 

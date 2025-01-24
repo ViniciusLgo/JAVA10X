@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class ContaCorrente extends ContaBancaria implements Conta{
+public class ContaCorrente extends ContaBancaria implements Conta {
 
     // construtor
     public ContaCorrente(String nome, TipoConta tipoConta, double saldo) {
@@ -14,8 +14,8 @@ public class ContaCorrente extends ContaBancaria implements Conta{
         System.out.println("Nome: " + nome + "\nTipo de conta: " + tipoConta + "\nSaldo: " + saldo);
     }
 
-    public void depositar(double valorDeposito){
-        if(valorDeposito > 0){
+    public void depositar(double valorDeposito) {
+        if (valorDeposito > 0) {
             saldo += valorDeposito;
 
             System.out.println("______________Deposito realizado_______________");
@@ -26,7 +26,7 @@ public class ContaCorrente extends ContaBancaria implements Conta{
         }
     }
 
-    public void consultarSaldo(){
+    public void consultarSaldo() {
         System.out.println("______________Saldo Atualizado_____________");
         System.out.println("Saldo: R$ " + saldo);
     }

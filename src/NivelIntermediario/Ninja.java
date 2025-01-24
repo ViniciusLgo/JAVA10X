@@ -55,7 +55,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     }
 
 
-
     public Ninja(String nome, String aldeia, int idade) {
     }
 

@@ -1,7 +1,7 @@
 package NivelIntermediario;
 
 public class Shuriken {
-    private int tamanho;
+    private final int tamanho;
 
     public Shuriken(int tamanho) {
         this.tamanho = tamanho;

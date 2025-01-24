@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Senju extends Hokages{
+public class Senju extends Hokages {
 /*
 
     @Override

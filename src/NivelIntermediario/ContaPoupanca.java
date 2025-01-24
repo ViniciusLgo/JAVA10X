@@ -1,10 +1,10 @@
 package NivelIntermediario;
 
-public class ContaPoupanca extends ContaBancaria implements Conta{
+public class ContaPoupanca extends ContaBancaria implements Conta {
     double taxaAdministrativa = 1.0;
 
     // construtor
-    public ContaPoupanca (String nome, TipoConta tipoConta, double saldo) {
+    public ContaPoupanca(String nome, TipoConta tipoConta, double saldo) {
         super(nome, String.valueOf(tipoConta), saldo);
     }
 
@@ -15,15 +15,15 @@ public class ContaPoupanca extends ContaBancaria implements Conta{
     }
 
     @Override
-    public void depositar(double valorDeposito){
+    public void depositar(double valorDeposito) {
         double valorDepositado;
 
-        if(valorDeposito > 0){
-            valorDepositado = valorDeposito-((valorDeposito * taxaAdministrativa)/100);
+        if (valorDeposito > 0) {
+            valorDepositado = valorDeposito - ((valorDeposito * taxaAdministrativa) / 100);
             saldo += valorDepositado;
 
             System.out.println("______________Deposito realizado_______________");
-            System.out.println("Os valores depositados tem uma taxa administrativa de: "+ taxaAdministrativa + "%" + "\nValor liquido depositado: " + valorDepositado);
+            System.out.println("Os valores depositados tem uma taxa administrativa de: " + taxaAdministrativa + "%" + "\nValor liquido depositado: " + valorDepositado);
             System.out.println("Deposito efetuado com sucesso!");
         } else {
             System.out.println("Insira um valor válido para deposito");
@@ -32,7 +32,7 @@ public class ContaPoupanca extends ContaBancaria implements Conta{
     }
 
     @Override
-    public void consultarSaldo(){
+    public void consultarSaldo() {
         System.out.println("______________Saldo Atualizado_____________");
         System.out.println("Saldo: R$ " + saldo);
     }

@@ -1,7 +1,7 @@
 package NivelIntermediario;
 
 public class Pergaminho {
-    private String conteudo;
+    private final String conteudo;
 
     public Pergaminho(String conteudo) {
         this.conteudo = conteudo;

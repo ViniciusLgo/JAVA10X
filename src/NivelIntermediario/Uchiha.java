@@ -6,7 +6,6 @@ public class Uchiha extends Ninja implements SharinganInterface {
     }
 
 
-
     public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }

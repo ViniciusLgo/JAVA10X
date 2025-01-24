@@ -2,7 +2,7 @@ package NivelIntermediario;
 
 public enum Biju {
 
-    SHUKAKU(1,"Shukaku","Gaara"),
+    SHUKAKU(1, "Shukaku", "Gaara"),
     MATATABI(2, "Matatabi", "Yugito Nii"),
     ISOBU(3, "Isobu", "Yagura"),
     SON_GOKU(4, "Son Goku", "Roshi"),

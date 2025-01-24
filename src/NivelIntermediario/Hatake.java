@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Hatake extends Ninja implements SharinganInterface,AnbuInterface,HokageInterface {
+public class Hatake extends Ninja implements SharinganInterface, AnbuInterface, HokageInterface {
 
 
     public void boasVindas() {
