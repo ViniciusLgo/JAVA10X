@@ -5,7 +5,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     // How to-do: ARRAY E LIST
     /*
 
-     // TIPO DO ARRAY[] O NOME DO ARRAY E NEW TIPO[QUANT DE OBJETOS];
+    // TIPO DO ARRAY[] O NOME DO ARRAY E NEW TIPO[QUANT DE OBJETOS];
 
         String[] ninjasArray = new String[5];
         ninjasArray[0] = "Aldeia da folha";
@@ -22,9 +22,14 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         //List<tipo da lista> nome da lista = new Arraylist<>();
         List<String> ninjasList = new ArrayList<>();
         ninjasList.add("naruto usumaki");
+        ninjasList.add("Sasuke ");
+        ninjasList.add("Madara usumaki");
         ninjasList.add(itachi.getNome());
 
         System.out.println(ninjasList);
+        ninjasList.remove("Sasuke ");
+        System.out.println(ninjasList);
+
 
      */
 
