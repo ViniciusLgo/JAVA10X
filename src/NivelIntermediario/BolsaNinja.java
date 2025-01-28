@@ -25,4 +25,6 @@ public class BolsaNinja<T> {
             System.out.println(ferramenta);
         }
     }
+
+
 }

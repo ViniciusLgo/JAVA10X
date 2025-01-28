@@ -1,19 +1,43 @@
+
 package NivelIntermediario;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Criando uma bolsa ninja
-        BolsaNinja<Object> bolsaNinja = new BolsaNinja<>();
+        // Array
+        // Sao estaticos e tem ref de memoria
+        String[] ninjasArray = new String[3];
+        ninjasArray[0] = "Naruto Uzumaki";
 
-        // Adicionando ferramentas à bolsa
-        bolsaNinja.adicionarFerramenta(new Kunai("Kunai Explosiva"));
-        bolsaNinja.adicionarFerramenta(new Shuriken("Shuriken de aço", 3));
-        bolsaNinja.adicionarFerramenta(new Pergaminho("Invocacao do sapo"));
-        bolsaNinja.adicionarFerramenta(new Pergaminho("Invocacao da aguia"));
+        // Listas
+        // Sao dinamicas e tamanho aumnta e diminui conforme precisa
+        List<String> ninjasList = new ArrayList<>();
+        ninjasList.add("Naruto Uzumaki");
 
-        // Exibindo os itens da bolsa
-        System.out.println("Itens da nossa bolsa Ninja:");
-        bolsaNinja.mostrarFerramentas();
+        // Stack
+        // O ultimo elemento que entrou é obrigatoriamente o primeiro a sair
+        Stack<String> ninjaStack = new Stack<>();
+        ninjaStack.add("Naruto Uzumaki");
+        ninjaStack.push("Sasuke Uchiha");
+        ninjaStack.push("Sakura Haruno");
+        ninjaStack.push("Hinata Hyuga");
+        ninjaStack.push("Kakashi Hatake");
+        System.out.println("Minha Stack Atual = " + ninjaStack);
+        ninjaStack.pop();
+        System.out.println("Minha Stack Atualizada com pop = " + ninjaStack);
+        System.out.println("Minha Stack com o proximo elemnto do topo = " + ninjaStack.peek());
+        System.out.println("Tamanho da Stack: " + ninjaStack.size() + " elementos.");
+
+        System.out.println("Minha Stack Atual = " + ninjaStack);
+
+
+
+
+
+
     }
 }
