@@ -1,18 +1,14 @@
 package NivelIntermediario;
 
 public class Pergaminho {
-    private final String conteudo;
+    private String invocacao;
 
-    public Pergaminho(String conteudo) {
-        this.conteudo = conteudo;
-    }
-
-    public String getConteudo() {
-        return conteudo;
+    public Pergaminho(String invocacao) {
+        this.invocacao = invocacao;
     }
 
     @Override
     public String toString() {
-        return "Pergaminho: " + conteudo;
+        return "Pergaminho: " + invocacao;
     }
 }

@@ -3,20 +3,17 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
 
-        // Criando instâncias de EquipamentosNinja
-        EquipamentosNinja kunai = new EquipamentosNinja("Kunai de Ferro");
-        EquipamentosNinja shuriken = new EquipamentosNinja("Shuriken de Ferro");
-        EquipamentosNinja bomba = new EquipamentosNinja("Bomba de Ferro");
+        // Criando uma bolsa ninja
+        BolsaNinja<Object> bolsaNinja = new BolsaNinja<>();
 
-        // Criando uma BolsaGenerica para EquipamentosNinja
-        BolsaGenerica<EquipamentosNinja> bolsaGenerica = new BolsaGenerica<>();
+        // Adicionando ferramentas à bolsa
+        bolsaNinja.adicionarFerramenta(new Kunai("Kunai Explosiva"));
+        bolsaNinja.adicionarFerramenta(new Shuriken("Shuriken de aço", 3));
+        bolsaNinja.adicionarFerramenta(new Pergaminho("Invocacao do sapo"));
+        bolsaNinja.adicionarFerramenta(new Pergaminho("Invocacao da aguia"));
 
-        // Adicionando os equipamentos à bolsa
-        bolsaGenerica.adicionarEquipamentos(kunai);
-        bolsaGenerica.adicionarEquipamentos(shuriken);
-        bolsaGenerica.adicionarEquipamentos(bomba);
-
-        // Exibindo o conteúdo da bolsa
-        System.out.println(bolsaGenerica);
+        // Exibindo os itens da bolsa
+        System.out.println("Itens da nossa bolsa Ninja:");
+        bolsaNinja.mostrarFerramentas();
     }
 }

@@ -1,14 +1,12 @@
 package NivelIntermediario;
 
 public class Shuriken {
-    private final int tamanho;
+    private String descricao;
+    private int tamanho;
 
-    public Shuriken(int tamanho) {
+    public Shuriken(String descricao, int tamanho) {
+        this.descricao = descricao;
         this.tamanho = tamanho;
-    }
-
-    public int getTamanho() {
-        return tamanho;
     }
 
     @Override
@@ -16,5 +14,3 @@ public class Shuriken {
         return "Shuriken de tamanho: " + tamanho;
     }
 }
-
-
