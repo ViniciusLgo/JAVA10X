@@ -8,31 +8,45 @@ import java.util.Stack;
 public class Main {
     public static void main(String[] args) {
 
-        // Array
-        // Sao estaticos e tem ref de memoria
-        String[] ninjasArray = new String[3];
-        ninjasArray[0] = "Naruto Uzumaki";
+        // Arrays
+        System.out.println("----------- ARRAY ------------");
 
-        // Listas
-        // Sao dinamicas e tamanho aumnta e diminui conforme precisa
-        List<String> ninjasList = new ArrayList<>();
-        ninjasList.add("Naruto Uzumaki");
+        String[] nomeNinjaArray = new String[7];
+        nomeNinjaArray[0] = "Naruto Uzumaki";
+        nomeNinjaArray[1] = "Sasuke Uchiha";
+        nomeNinjaArray[2] = "Sakura Haruno";
+        nomeNinjaArray[3] = "Hinata Hyuga";
+        System.out.println("nomeNinjaArray = " + nomeNinjaArray);
+        System.out.println("nomeNinjaArray[0] = " + nomeNinjaArray[4]);
 
-        // Stack
-        // O ultimo elemento que entrou é obrigatoriamente o primeiro a sair
-        Stack<String> ninjaStack = new Stack<>();
-        ninjaStack.add("Naruto Uzumaki");
-        ninjaStack.push("Sasuke Uchiha");
-        ninjaStack.push("Sakura Haruno");
-        ninjaStack.push("Hinata Hyuga");
-        ninjaStack.push("Kakashi Hatake");
-        System.out.println("Minha Stack Atual = " + ninjaStack);
-        ninjaStack.pop();
-        System.out.println("Minha Stack Atualizada com pop = " + ninjaStack);
-        System.out.println("Minha Stack com o proximo elemnto do topo = " + ninjaStack.peek());
-        System.out.println("Tamanho da Stack: " + ninjaStack.size() + " elementos.");
+        // Lista é um pouco mais lenta em comparacao com ARRAY
+        System.out.println("----------- LISTA ------------");
+        List<String> nomeNinjaList = new ArrayList<>();
+        nomeNinjaList.add("Naruto Uzumaki");
+        nomeNinjaList.add("Sasuke Uchiha");
+        nomeNinjaList.add("Sakura Haruno");
+        nomeNinjaList.add("Madara Uchiha");
+        System.out.println(nomeNinjaList);
 
-        System.out.println("Minha Stack Atual = " + ninjaStack);
+        System.out.println("----------- STACK ------------");
+        Stack<String> nomeNinjaStack = new Stack<>();
+        nomeNinjaStack.push("Naruto Uzumaki");
+        nomeNinjaStack.push("Sasuke Uchiha");
+        nomeNinjaStack.push("Sakura Haruno");
+        System.out.println("Mostrar Stack = " + nomeNinjaStack);
+        System.out.println("Tirar da pilha/stack = " + nomeNinjaStack.pop());
+        System.out.println("Mostrar Stack = " + nomeNinjaStack);
+        System.out.println("Tirar da pilha/stack = " + nomeNinjaStack.pop());
+        nomeNinjaStack.push("Kakashi");
+        System.out.println("Mostrar Stack = " + nomeNinjaStack);
+        System.out.println("Ninja no topo (sem remover): " + nomeNinjaStack.peek());
+        System.out.println("Mostrar Stack = " + nomeNinjaStack);
+
+
+
+
+
+
 
 
 
