@@ -1,8 +1,7 @@
 
 package NivelIntermediario;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.Stack;
 
 public class Main {
@@ -43,11 +42,37 @@ public class Main {
         System.out.println("Mostrar Stack = " + nomeNinjaStack);
 
 
+        // ------------------ QUEUE (FILA) ------------------
+        System.out.println("----------- QUEUE // FILAS ------------");
+        Queue<String> ninjasQueue = new LinkedList<>();
 
+        // Adicionando elementos na fila (Queue)
+        ninjasQueue.add("Naruto Uzumaki");
+        ninjasQueue.add("Sasuke Uchiha");
+        ninjasQueue.add("Sakura Haruno");
+        ninjasQueue.add("Hinata Hyuga");
 
+        System.out.println("Mostrar Queue = " + ninjasQueue);
+        System.out.println("Ninja no início da fila (sem remover): " + ninjasQueue.peek());
 
+        // Removendo elementos da fila (FIFO - First In, First Out)
+        System.out.println("Removendo da fila: " + ninjasQueue.poll());
+        System.out.println("Mostrar Queue após remoção = " + ninjasQueue);
 
+        System.out.println("Removendo da fila: " + ninjasQueue.poll());
+        System.out.println("Mostrar Queue após remoção = " + ninjasQueue);
 
+        ninjasQueue.add("Madara Uchiha");
+        System.out.println("Adicionar Madara à fila: " + ninjasQueue);
+        System.out.println("Ninja no início da fila (sem remover): " + ninjasQueue.peek());
+        System.out.println("Mostrar Queue final = " + ninjasQueue);
+
+        // Verificar se a fila esta vazia
+        if (ninjasQueue.isEmpty()){
+            System.out.println("A fila esta vazia");
+        }else{
+            System.out.println("A fila não esta vazia voce tem esses elementos: " + ninjasQueue);
+        }
 
 
 
