@@ -1,13 +1,11 @@
-
 package NivelIntermediario;
 
 import java.util.*;
-import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Arrays
+        // ------------------ ARRAY ------------------
         System.out.println("----------- ARRAY ------------");
 
         String[] nomeNinjaArray = new String[7];
@@ -15,18 +13,19 @@ public class Main {
         nomeNinjaArray[1] = "Sasuke Uchiha";
         nomeNinjaArray[2] = "Sakura Haruno";
         nomeNinjaArray[3] = "Hinata Hyuga";
-        System.out.println("nomeNinjaArray = " + nomeNinjaArray);
-        System.out.println("nomeNinjaArray[0] = " + nomeNinjaArray[4]);
+        System.out.println("nomeNinjaArray = " + Arrays.toString(nomeNinjaArray));
+        System.out.println("nomeNinjaArray[4] = " + (nomeNinjaArray[4] == null ? "Vazio" : nomeNinjaArray[4]));
 
-        // Lista é um pouco mais lenta em comparacao com ARRAY
+        // ------------------ LISTA (ARRAYLIST) ------------------
         System.out.println("----------- LISTA ------------");
         List<String> nomeNinjaList = new ArrayList<>();
         nomeNinjaList.add("Naruto Uzumaki");
         nomeNinjaList.add("Sasuke Uchiha");
         nomeNinjaList.add("Sakura Haruno");
         nomeNinjaList.add("Madara Uchiha");
-        System.out.println(nomeNinjaList);
+        System.out.println("ArrayList = " + nomeNinjaList);
 
+        // ------------------ STACK (PILHA) ------------------
         System.out.println("----------- STACK ------------");
         Stack<String> nomeNinjaStack = new Stack<>();
         nomeNinjaStack.push("Naruto Uzumaki");
@@ -39,8 +38,7 @@ public class Main {
         nomeNinjaStack.push("Kakashi");
         System.out.println("Mostrar Stack = " + nomeNinjaStack);
         System.out.println("Ninja no topo (sem remover): " + nomeNinjaStack.peek());
-        System.out.println("Mostrar Stack = " + nomeNinjaStack);
-
+        System.out.println("Mostrar Stack final = " + nomeNinjaStack);
 
         // ------------------ QUEUE (FILA) ------------------
         System.out.println("----------- QUEUE // FILAS ------------");
@@ -68,11 +66,47 @@ public class Main {
         System.out.println("Mostrar Queue final = " + ninjasQueue);
 
         // Verificar se a fila esta vazia
-        if (ninjasQueue.isEmpty()){
-            System.out.println("A fila esta vazia");
-        }else{
-            System.out.println("A fila não esta vazia voce tem esses elementos: " + ninjasQueue);
+        if (ninjasQueue.isEmpty()) {
+            System.out.println("A fila está vazia");
+        } else {
+            System.out.println("A fila não está vazia, você tem esses elementos: " + ninjasQueue);
         }
+
+        // ------------------ LINKEDLIST ------------------
+        System.out.println("----------- LINKEDLIST ------------");
+        LinkedList<String> ninjasLinkedList = new LinkedList<>();
+
+        // Adicionando elementos na LinkedList
+        ninjasLinkedList.add("Naruto Uzumaki");
+        ninjasLinkedList.add("Sasuke Uchiha");
+        ninjasLinkedList.add("Sakura Haruno");
+        ninjasLinkedList.add("Hinata Hyuga");
+
+        System.out.println("Mostrar LinkedList = " + ninjasLinkedList);
+        System.out.println("Primeiro ninja da LinkedList: " + ninjasLinkedList.getFirst());
+        System.out.println("Último ninja da LinkedList: " + ninjasLinkedList.getLast());
+
+        // Removendo elementos da LinkedList
+        System.out.println("Removendo primeiro ninja: " + ninjasLinkedList.removeFirst());
+        System.out.println("Mostrar LinkedList após remoção = " + ninjasLinkedList);
+
+        System.out.println("Removendo último ninja: " + ninjasLinkedList.removeLast());
+        System.out.println("Mostrar LinkedList após remoção = " + ninjasLinkedList);
+
+
+        // Adicionando no início e no fim
+        ninjasLinkedList.addFirst("Kakashi Hatake");
+        ninjasLinkedList.addLast("Madara Uchiha");
+        System.out.println("LinkedList após adicionar elementos no início e no fim = " + ninjasLinkedList);
+
+        // Verificar se a LinkedList está vazia
+        if (ninjasLinkedList.isEmpty()) {
+            System.out.println("A LinkedList está vazia");
+        } else {
+            System.out.println("A LinkedList não está vazia, você tem esses elementos: " + ninjasLinkedList);
+        }
+
+
 
 
 
