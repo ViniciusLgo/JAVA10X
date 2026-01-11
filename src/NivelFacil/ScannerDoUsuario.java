@@ -1,11 +1,11 @@
-package NivelFacil.Condicoes;
+package NivelFacil;
 import java.util.Scanner;
 
 public class ScannerDoUsuario {
     public static void main(String[] args) {
 
         /*
-         * Scanner = É um jeito de trazer o usuario para dentro dentro da aplicacao.
+         * Scanner = É um jeito de trazer o usuario para dentro da aplicacao.
          * Objetivo: O usuario vai criar um ninja e vamos validar os dados
          * */
 

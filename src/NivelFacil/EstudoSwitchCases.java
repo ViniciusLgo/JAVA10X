@@ -1,4 +1,4 @@
-package NivelFacil.Condicoes;
+package NivelFacil;
 import java.util.Scanner;
 
 public class EstudoSwitchCases {

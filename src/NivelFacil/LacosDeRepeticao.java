@@ -1,4 +1,4 @@
-package NivelFacil.Condicoes;
+package NivelFacil;
 
 public class LacosDeRepeticao {
     public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class LacosDeRepeticao {
          * WHILE = FOR
          * */
 
-        // While
         // while (condicao) {Tudo aqui vai acontecer}
 
         int numeroDeClones = 0;

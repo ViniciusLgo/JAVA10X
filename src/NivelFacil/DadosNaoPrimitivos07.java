@@ -1,4 +1,4 @@
-package newStudy.NivelFacil;
+package NivelFacil;
 
 public class DadosNaoPrimitivos07 {
 

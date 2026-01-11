@@ -1,4 +1,4 @@
-package NivelFacil.Condicoes;
+package NivelFacil;
 
 public class Ternarios {
     public static void main(String[] args) {

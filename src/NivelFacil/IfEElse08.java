@@ -1,6 +1,6 @@
-package NivelFacil.Condicoes;
+package NivelFacil;
 
-public class IfEElse {
+public class IfEElse08 {
     public static void main(String[] args) {
 
         /*
@@ -30,9 +30,9 @@ public class IfEElse {
         } else if (numeroDeMissoes >= 20) {
             System.out.println("Rank: Jounin");
         } else {
-            System.out.println("Rank: Gennim");
-            ;
+            System.out.println("Rank: Gennim");;
         }
+
 
 
     }
