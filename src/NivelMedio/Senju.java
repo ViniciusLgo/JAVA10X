@@ -25,7 +25,6 @@ public class Senju extends Hokages implements EstrategiaDeBatalha {
         System.out.println("Sou Hokage Senju, essa é minha estratégia de batalha!");
     }
 
-    @Override
     public void inteligenciaDeCombate() {
         System.out.println("Sou Hokage Senju, essa é minha inteligência de combate!");
     }
