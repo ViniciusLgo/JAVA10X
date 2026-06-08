@@ -3,27 +3,32 @@ package NivelMedio;
 public class Main {
     public static void main(String[] args) {
 
-        // Criar o ninja Naruto - Naruto é um OBJETO
-        Ninja Naruto = new Ninja();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.aldeia = "Aldeia da folha";
-        Naruto.idade = 17;
-        Naruto.MensagemDeBoasVindas();
+        // Obj ninja nao da pra ser criado por que é abstrato
 
-        // Criar ninja Sasuke Uchiha - Sasuke é um OBJETO
-        Ninja Sasuke = new Ninja();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.aldeia = "Aldeia da Folha";
-        Sasuke.idade = 18;
+        // Obj uzumaki
+        Uzumaki naruto = new Uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.aldeia = "Aldeia da Folha";
+        naruto.idade = 16;
+        naruto.habilidadeEspecial();
+        naruto.estrategiaDeBatalhaNinja();
 
-        // Criar Sakura Haruno
-        Ninja Sakura = new Ninja();
-        Sakura.nome = "Sakura Haruno";
-        Sakura.aldeia = "Aldeia da Folha";
-        Sakura.idade = 18;
+        // Obj uchiha
+        Uchiha sasuke = new Uchiha("Sasuke uchiha", "Aldeia da folha", 18, 20, NivelNinja.GENIN);
+        sasuke.habilidadeEspecial();
+
+        // Obj Uchiha 2®
+        Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 27 );
+        itachi.habilidadeEspecial();
+
+        // obj Uchiha 3
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da folha", 45,900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaDeBatalhaNinja();
+
+
 
 
 
     }
-
 }
